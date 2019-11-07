@@ -1,0 +1,240 @@
+
+.header {
+  
+   overflow: hidden;
+   position: relative;
+  
+ }
+ 
+.cloud {
+  opacity: 0.8;
+  width: 100%;
+  max-width: 700px;
+  height: auto;
+}
+
+
+#cloud1 {
+  z-index: 1;
+  position: absolute;
+  top: -40px;
+  left: -100px;
+}
+
+#cloud2 {
+  z-index: 2;
+  position: absolute;
+  top: 20px;
+  left: -300px;
+}
+
+#cloud3 {
+  z-index: 3;
+  position: absolute;
+  top: -400px;
+  left: -200px;
+}
+
+#cloud4 {
+  z-index: 4;
+  position: absolute;
+  top:-200px;
+  left: 40px;
+}
+
+  .nav-0{
+    display:block;
+    position: absolute;
+    top:0px;
+    right:20px;
+    
+  }
+
+  @keyframes slidy {
+    0% { left: 0%; }
+    20% { left: 0%; }
+    25% { left: -100%; }
+    45% { left: -100%; }
+    50% { left: -200%; }
+    70% { left: -200%; }
+    75% { left: -300%; }
+    95% { left: -300%; }
+    100% { left: -400%; }
+    }
+    
+    
+    div#slider { overflow: hidden; }
+    div#slider figure img { width: 20%; float: left; }
+    div#slider figure { 
+      position: relative;
+      width: 500%;
+      height:100%;
+      margin: 0;
+      left: 0;
+      text-align: left;
+      font-size: 0;
+      animation: 15s slidy infinite; 
+      
+    }
+    .belt-0{
+    display: flex;
+    position: absolute;
+    background-image: url(../img/belt.png);
+    left:30px;
+    top: 0;
+    overflow: hidden;
+    
+    width:360px;
+    height:840px;
+   
+    }
+    main{
+      margin:0 auto;
+    }
+    .t-container{
+      background-image: url(../img/background2.jpg);
+      margin:70px auto;
+      width: 1100px;
+      padding-top: 70px;
+      
+    }
+    .area1{
+      display: flex;
+      width:1100px;
+      height:450px;
+      
+    }
+    .wood1{
+      position: relative;
+      top:30px;
+      bottom:0px;
+      left:20px;
+      right:0px;
+      width: 369px;
+      height: 155px;
+    }
+    .eel2{
+      position: relative;
+      top:-20px;
+      bottom: 0px;;
+      left:100px;
+      right:0px;
+      width: 668px;
+      height:445px;
+    }
+    .eel1{
+      position: relative;
+      top:200px;
+      bottom:0px;
+      left:-800px;
+      right:0px;
+      width: 352px;
+      height:308px;
+    }
+    .text{
+      display: block;
+      width:500px;
+      
+      color: black;
+      font-family:DFKai-SB;
+      font-size:20px;
+      writing-mode: lr-tb;
+      position: relative;
+      top:-30px;
+      left:570px;
+    }
+    .area2{
+      height: 500px;
+      width:1100px;
+     margin-top:200px;
+    }
+    .wood2{
+      position: relative;
+      top:-150px;
+      bottom:0px;
+      left:700px;
+      right:0px;
+      width: 385px;
+      height: 190px;
+    }
+    .yakiudon2{
+      position: relative;
+      top:-600px;
+      bottom: 0px;;
+      left:560px;
+      right:0px;
+      width: 457px;
+      height:327px;
+    }
+
+    .yakiudon{
+      position: relative;
+      top:-360px;
+      bottom: 0px;;
+      left:0px;
+      right:0px;
+      width: 762px;
+      height:509px;
+    }
+    .text2{
+      display: block;
+      width:500px;
+      color: black;
+      font-family:DFKai-SB;
+      font-size:20px;
+      writing-mode: lr-tb;
+      margin:0px 0px 0px 40px;
+      position: relative;
+      top:-180px;
+      bottom:0px;
+    }
+    .m-container{
+      background-image: url(../img/background1.jpg);
+      margin:70px auto;
+      width: 1100px;
+
+      
+    }
+    .latest_info_title{
+      display: flex;
+      width:1100px;
+      height: 54px;
+      background-color: #EDB74F;
+    }
+    .latest_info_title img{
+      width: 45px;
+      height: 45px;
+      margin:8px 0px 0px 10px;
+    }
+    .latest_info_title h2{
+      font-size:24px ;
+      font-family:DFKai-SB;
+      color: #CE2B11;
+      margin:15px 10px;
+    }
+    .latest_info_content{
+      width:1100px;
+      height: 255;
+    }
+    .latest_info_content_block{
+      width:1100px;
+      height: 63px;
+      border-top: solid 1px #707070;
+      display: flex;
+      font-family:DFKai-SB;
+    }
+    .latest_info_content_block p{
+      margin:22.4px 40px 22.4px 70px;
+      font-size: 20px;
+    }
+    .latest_info_content_block h6{
+      color: #707070;
+      margin:25px 0px;
+      font-size: 14px;
+      font-weight: 100;
+      position: relative;
+      text-align: right;
+      left:0px;
+      right:-20px;
+    }
+   

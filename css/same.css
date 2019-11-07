@@ -1,0 +1,244 @@
+html{
+    background-color: #21abb8;
+    min-width:1260px;
+    margin:0px auto;
+  }
+body {
+     margin: 0 auto;
+ } 
+.t-li {
+    list-style: none;
+    background-image: url(../img/wood.png) ;
+    width: 52px;
+    height:120px;
+    margin:80px 20px;
+   padding-top: 25px;
+   padding-left: 0px;
+  }
+  .t-li:hover{
+    width:52px;
+    height:140px;
+    padding-left: 6px;
+  }
+  .t-li:hover a{
+    font-size:28px;
+  }
+  .t-li:hover .vertical{
+    margin-left:5px;
+  }
+  .active{
+    width:52px;
+    height:140px;
+    padding-left: 6px;
+    font-size:28px;
+    
+  }
+  .active a{
+    font-size:28px;
+    color:#E6E6E6;
+  }
+  .active .vertical{
+    margin-left:5px;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+    font-family:DFKai-SB;
+    font-weight: 900;
+    font-size:24px;
+    
+
+  }
+
+  
+  .vertical {
+    writing-mode: tb-rl;
+    margin-right: 0px;
+    margin-left: 12px;
+  }
+  .nav{
+    display:block;
+    position: absolute;
+    top:0px;
+    right:20px;
+    
+  }
+  
+  .t-ul {
+    display: flex;
+    margin-top: 0px;
+    margin-left:80px;
+  }
+  .belt{
+    display: flex;
+    position: absolute;
+    background-image: url(../img/belt.png);
+    left:30px;
+    top: 0;
+    overflow: hidden;
+    margin-top: 0px;
+    width:360px;
+    height:840px;
+   
+    }
+   
+.b-container{
+    display: flex;
+    width:1100px;
+   
+    margin:70px auto;
+   
+
+  }
+  .map{
+    width:470px;
+    height: 316px;
+
+  }
+  .info{
+    width:700px;
+    
+    color: white;
+    font-family:DFKai-SB;
+    font-size:20px;
+    margin:0px 0px 0px 60px;
+    
+  }
+  .info img{
+    margin:0px;
+  }
+  .info p{
+    margin:5px;
+  }
+  .torii{
+    width:173px;
+    height: 148px;
+    position: relative;
+    bottom:-250px;
+  }
+  .footer{
+   
+    
+    background-color:#2B707B;
+   
+    margin-top: 80px;
+  }
+  .footerbox{
+    width:1260px;
+    margin:0 auto;
+    display: flex;
+  }
+
+  .copyright{
+    margin:32px 70px;;
+    font-family: Arial;
+    font-size: 14px;
+    color:#259DAB;
+    
+  }
+  .b-ul {
+    display: flex;
+    margin-left: 30px;
+    
+  }
+  .b-li-block{
+    display: inline-block;
+  }
+  .b-li {
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    
+  }
+  .b-li:hover a{
+    color: #DA421B;
+  }
+  .b-li img{
+    width:25px;
+    height: 25px;
+    margin:12px 0px;
+  }
+  .b-li a{
+    
+    color: #ECB64E;
+    text-decoration: none;
+    font-family:DFKai-SB;
+    font-weight: 100;
+    font-size:20px;
+    margin:12px 15px 12px 5px;
+  }
+
+  .b-li a p{
+    margin:0px 0px;
+  }
+  .icon_section{
+    display: flex;
+    margin:20px 0px;
+  }
+  .icon-fb{
+      position: relative;
+  }
+  .icon-line{
+    position: relative;
+    left:50px;
+}
+  .icon-twitter{
+    position: relative;
+    left: 100px;
+}
+  .fb1{
+    
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px ;
+  }
+  .fb2{
+    display: none;
+    position: absolute;  
+    width: 40px;
+    height: 40px;
+    margin-right: 10px ;
+  }
+  .line1{
+    
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px ;
+  }
+  .line2{
+    display: none;
+    position: absolute;  
+    width: 40px;
+    height: 40px;
+    margin-right: 10px ;
+  }
+  .twitter1{
+    
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px ;
+  }
+  .twitter2{
+    display: none;
+    position: absolute;  
+    width: 40px;
+    height: 40px;
+    margin-right: 10px ;
+  }
+  .icon-fb:hover .fb2{
+    display: block;
+
+  }
+  .icon-line:hover .line2{
+    display: block;
+
+  }
+  .icon-twitter:hover .twitter2{
+    display: block;
+
+  }
+ 
